@@ -1,5 +1,7 @@
 # html-classer
 
+[![Build Status](https://travis-ci.org/samccone/html-classer.svg)](https://travis-ci.org/samccone/html-classer)
+
 Add html classes to every dom node in a fragment.
 
     npm i html-classer
@@ -32,4 +34,4 @@ require('html-classer')(fs.readFileSync("wow.html", 'utf8'), {
 
 * Options
 
-  * html classer takes a single key value pair of klass: 'class-name'
+  * html classer takes a single key value pair of `klass: 'class-name'`

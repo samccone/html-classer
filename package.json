@@ -1,4 +1,6 @@
 {
+  "name": "html-classer",
+  "version": "0.0.1",
   "dependencies": {
     "parse5": "^1.0.1"
   },

@@ -17,7 +17,7 @@ module.exports = function(str, opts) {
 }
 
 function walk(node, opts) {
-  addClass(node);
+  addClass(node, opts.klass);
 
   if (!node.childNodes) return node;
 

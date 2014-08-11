@@ -11,5 +11,5 @@ describe "adding a class to every node", ->
     input     = fs.readFileSync(path.join(__dirname, "fixtures/simple.html"), "utf8")
     expected  = fs.readFileSync(path.join(__dirname, "fixtures/simple-expected.html"), "utf8")
 
-    classer(input).replace(/\n/gm, "")
+    classer(input, {klass: "bkr"}).replace(/\n/gm, "")
     .should.eql(expected.replace(/\n/gm, ""))

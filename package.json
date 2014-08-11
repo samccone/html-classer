@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "parse5": "^1.0.1"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.7.1",
+    "chai": "^1.9.1",
+    "mocha": "^1.21.4"
+  }
+}

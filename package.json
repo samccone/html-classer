@@ -1,15 +1,19 @@
 {
   "name": "html-classer",
-  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/samccone/html-classer.git"
+  },
+  "version": "0.0.3",
   "dependencies": {
-    "parse5": "^1.0.1"
+    "parse5": "1.1.2"
   },
   "scripts": {
     "test": "mocha test"
   },
   "devDependencies": {
-    "coffee-script": "^1.7.1",
-    "chai": "^1.9.1",
-    "mocha": "^1.21.4"
+    "coffee-script": "1.7.1",
+    "chai": "1.9.1",
+    "mocha": "1.21.4"
   }
 }
